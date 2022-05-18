@@ -1,0 +1,144 @@
+body {
+
+    margin: 0;
+}
+
+header {
+    height: 90vh;
+    background-image: url(./assets/landingpage.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.navigation {
+    padding: 15px 0px;
+    color: white;
+    border-bottom: 1px grey;
+}
+
+ul {
+    display: inline-block;
+    margin-left: 10em;
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+li {
+    display: inline;
+    margin-left: 4em;
+}
+
+li a {
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+}
+
+li a:hover {
+    color: rgb(187, 181, 181)
+}
+
+span {
+    display: inline-block;
+}
+
+img {
+    margin-left: 100px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: white
+}
+
+.home-paragraph {
+    margin-top: 20vh;
+    font-weight: bolder;
+    text-align: center;
+    color: white
+}
+
+.home-paragraph h1,
+h3 {
+    margin-bottom: 20px;
+}
+
+.auth-buttons {
+    text-align: center;
+    position: relative;
+}
+
+.login-button {
+
+    display: inline-block;
+    height: 6.5em;
+    width: 51vw;
+    border: none;
+    background-color: #34495e;
+    clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
+    font-weight: bold;
+    margin-right: -45px;
+    z-index: 10;
+    color: white;
+    clear: both;
+}
+
+.register-button {
+    float: right;
+    height: 6.5em;
+    width: 51vw;
+    border: none;
+    background-color: #27ae60;
+    font-weight: 900;
+    color: white;
+}
+
+.about-us {
+    margin: 50px 0;
+}
+
+.vl {
+    display: inline-block;
+    border-right: 3px dotted lightgray;
+    height: 200px;
+    width: 47%;
+    margin: 0px 0px 10px -3px;
+}
+
+.about-header {
+    margin-left: 10vw;
+}
+
+.about-text {
+    width: 55%;
+    text-align: left;
+    margin: auto;
+    line-height: 20px;
+    color: #aeb6bf;
+}
+
+.cards {
+    display: inline-block;
+}
+
+.card {
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.card img {
+    border: 5px solid lightgray;
+    border-radius: 60px;
+    padding: 0;
+    margin: auto;
+}
+
+.card h4 {
+    color: #aeb6bf;
+    margin-top: -15px;
+}
